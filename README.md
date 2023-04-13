@@ -115,7 +115,7 @@ fig = plt.figure(figsize=(10, 8))
 sns.scatterplot(x='ISOMAP1', y='ISOMAP2', hue='Class', data=data_norm)
 ```
 
-![Isometric Mapping (ISOMAP)](./assets/Isometric_Mapping_01.png)
+![Isometric Mapping (ISOMAP)](https://github.com/mpolinowski/isometric-mapping/blob/master/assets/Isometric_Mapping_01.png)
 
 
 ## 3-Dimensional Plot
@@ -161,8 +161,4 @@ ax = fig.add_subplot(projection='3d')
 ax.scatter(xs=x, ys=y, zs=z, s=50, c=colours)
 ```
 
-![Isometric Mapping (ISOMAP)](./assets/Isometric_Mapping_02.png)
-
-```python
-
-```
+![Isometric Mapping (ISOMAP)](https://github.com/mpolinowski/isometric-mapping/blob/master/assets/Isometric_Mapping_02.png)
